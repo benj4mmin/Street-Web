@@ -1,0 +1,214 @@
+html {
+  padding-top: 100px;
+  background: linear-gradient(#48D1CC, transparent 70%),
+              linear-gradient(0deg, white, transparent 30%),
+              #48D1CC url(../StreetWebImages/ColoradoWeb1.jpg) no-repeat center;
+  background-size: cover;
+}
+/* header background gradient and img ^
+
+.main-header {
+  padding-top: 100px;
+  height: 850px;
+  background: linear-gradient(#48D1CC, transparent 70%),
+              linear-gradient(0deg, white, transparent 30%),
+              #48D1CC url(../StreetWebImages/ColoradoWeb1.jpg) no-repeat center;
+  background-size: cover;
+}
+*/
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    padding-top: 5%;
+    text-align: center;
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    margin-left: auto;
+    color: white;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20%;
+    width: 60%;
+    height: 25%;
+    border: 2px solid blue;
+    padding: 2px;
+    overflow: scroll;
+    background-color: black;
+    color: white;
+    position: absolute;
+    opacity: .5;
+}
+
+.sw1-content {
+  margin: 10px;
+}
+
+.sw1-row-padding {
+  margin: 5px;
+  padding: 10px;
+}
+
+.sw1-third {
+  position: relative;
+  float: left;
+  width: 33%;
+
+}
+
+.sw1-twothird {
+  position: relative;
+  float: right;
+  width: 66%;
+
+}
+
+.meter {
+  height: 15px;
+  position: relative;
+  background: #555;
+  -moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: rgb(43, 194,83);
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43, 194,83) 37%,
+    rgb(84, 240, 84) 69%;
+  );
+  box-shadow: inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+}
+
+ol li ul li {
+    text-align: center;
+    display: inline-block;
+}
+
+ol li {
+    display: inline-block;
+}
+
+.bizPic {
+  border-radius: 5px;
+
+}
+
+.bizName {
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+/*nav overlay
+
+.overlay {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: auto;
+  background-color: gray;
+  overflow-x: hidden;
+  transition: 0.5s;
+  border: none;
+}
+
+/* overlays/panels for music page */
+
+.music-panel {
+  height: 100%;
+  width: 0px;
+  position: relative;
+  top: 50%;
+  background-color: #48D1CC;
+  overflow-x: hidden;
+  white-space: nowrap;
+  transition: width 300ms;
+  border: none;
+  border-radius: 8px;
+
+}
+
+.music-panel.open {
+  width: 75%;
+  position: relative;
+  margin: 10%;
+}
+
+.open-panel-button {
+  height: 25px;
+  width: 50%;
+  position: relative;
+  background-color: #48D1CC;
+  border-radius: 8px;
+  border: 2px;
+  border-color: white;
+  padding: 2px;
+  margin: 5px;
+}
+
+/* buttons for music page */
+
+/* overlays for about page */
+
+.about-panel {
+  height: 100%;
+  width: 0px;
+  position: relative;
+  top: 20%;
+  background-color: #48D1CC;
+  overflow-x: hidden;
+  white-space: pre;
+  transition: width 300ms;
+  border: 2px;
+  border-radius: 50px;
+
+}
+
+.about-panel.open {
+  width: 75%;
+  position: static;
+  margin: 10%;
+  height: auto;
+  border: 2px;
+  border-radius: 5px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  		<!--
+  			Name: Street
+  		-->
+
+    <title>Ben Street Yurchison</title>
+
+  </head>
+
+  <link rel="stylesheet" href="StreetWebStyles/WebStyles1.css">
+  <link rel="stylesheet" href="StreetWebStyles/WebStyles2.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+
+  <body id="top" class="main-header">
+
+  <!-- myNav overlay -->
+    <div id="myNav" class="overlay">
+
+  <!-- button - close overlay -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- overlay content -->
+    <div class="overlay-content">
+      <a href="../StreetWeb1.php">Home</a>
+      <a href="/WebAbout1.html">About Me</a>
+      <a href="/WebBusiness1.html">Business</a>
+      <a href="/WebStreaming1.html">Streaming</a>
+      <a class="active" href="/WebMusic1.html">Music</a>
+      <a href="/WebSports1.html">Sports</a>
+      <a href="/WebGaming1.html">Gaming</a>
+      <a href="/WebPlayground1.html">Playground</a>
+    </div>
+
+    </div>
+
+    <!-- open/show overlay nav -->
+    <span style="font-size: 30px;cursor:pointer" onclick="openNav()">&#9776; Music</span>
+
+
+  <!--
+      bio info whatnot, about me? goals? INDEPENDANT OVERLAYS BELOW
+      ***********************************************************************
+      ***********************************************************************
+  -->
+
+  <!-- begin blink -->
+  <!-- myBlink overlay BLINK**********************************************-->
+  <div class="music-panel" data-panel="Blink1">
+       <div>
+         <h1>Blink 182</h1>
+         <a href="https://www.youtube.com/watch?v=vVy9Lgpg1m8" target="_blank">First Date by Blink 182</a>
+        <img src="../StreetWebImages/BlinkWeb1.jpeg" alt="Blink-182" height="50px" width="50px">
+        <img src="../StreetWebImages/BlinkWeb2.jpeg" alt="Blink-182" height="50px" width="50px">
+      </div>
+      <button class="close-panel">
+        Close
+      </button>
+    </div>
+
+  <!-- open/show overlay nav BLINK**********************************-->
+
+  <!-- end blink -->
+
+  <!-- begin RKS -->
+  <!-- myRks overlay RKS********************************************** -->
+    <div class="music-panel" data-panel="RKS1">
+  <!-- overlay content -->
+    <div>
+      <a href="https://www.youtube.com/watch?v=43shWAw01Vs" target="_blank">Devil Like Me by RKS</a>
+      <h1>Rainbow Kitten Surprise</h1>
+      <img src="../StreetWebImages/RainbowWeb1.jpeg" alt="Rks" height="50px" width="50px">
+      <button class="close-panel">Close </button>
+    </div>
+
+  </div>
+  <!-- end RKS -->
+
+  <!-- begin TOPS -->
+  <!-- myTops overlay TOPS********************************************** -->
+  <div class="music-panel" data-panel="TOPS1">
+       <div>
+         <h1>twenty one pilots</h1>
+         <a href="https://www.youtube.com/watch?v=92XVwY54h5k" target="_blank">Car Radio by twenty one pilots</a>
+         <img src="../StreetWebImages/TwentyWeb1.jpeg" alt="Tops" height="50px" width="50px">
+
+        <button class="close-panel">
+        Close
+        </button>
+    </div>
+
+    </div>
+
+  <!-- end TOPS -->
+  <h1> Top Bands</h1>
+  
+  <button type="button" class="open-panel-button" data-panel="Blink1">Blink-182
+  </button>
+
+  <button type="button" class="open-panel-button" data-panel="RKS1">RKS
+  </button>
+
+  <button type="button" class="open-panel-button" data-panel="TOPS1">Tops
+  </button>
+
+  <script src="../StreetWebScripts/WebScripts2.js"></script>
+  <script src="../StreetWebScripts/MusicScripts1.js"></script>
+  </body>
+
+  <footer></footer>
+</html>
